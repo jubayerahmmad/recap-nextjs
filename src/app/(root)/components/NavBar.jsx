@@ -6,19 +6,34 @@ const NavBar = () => {
     <nav className="p-4 bg-gray-800">
       <ul className="flex items-center gap-6">
         <li>
-          <Link href="/">Home</Link>
+          <Link prefetch href="/">
+            Home
+          </Link>
         </li>
         <li>
-          <Link href="/about">About</Link>
+          <Link prefetch href="/about">
+            About
+          </Link>
         </li>
         <li>
-          <Link href="/products">Products</Link>
+          <Link prefetch href="/products">
+            Products
+          </Link>
         </li>
         <li>
-          <Link href="/_blogs">Blogs</Link>
+          <Link prefetch href="/blogs">
+            Blogs
+          </Link>
         </li>
         <li>
-          <Link href="/dashboard/profile">Dashboard</Link>
+          <Link prefetch href="/parallel-routes">
+            Parallel Route
+          </Link>
+        </li>
+        <li>
+          <Link prefetch href="/dashboard/profile">
+            Dashboard
+          </Link>
         </li>
       </ul>
     </nav>
